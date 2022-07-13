@@ -6,6 +6,7 @@
       "brand": "Puma",
       "gender": "men",
       "price": 200,
+      "discountedPrice": 150,
       "sizesAvailable": [
         "s",
         "m",
@@ -20,6 +21,7 @@
       "brand": "Adidas",
       "gender": "men",
       "price": 100,
+      "discountedPrice": 80,
       "sizesAvailable": [
         "s",
         "m"
@@ -32,6 +34,7 @@
       "brand": "Allen Solly",
       "gender": "men",
       "price": 400,
+      "discountedPrice": 350,
       "sizesAvailable": [
         "l",
         "xl"
@@ -44,6 +47,7 @@
       "brand": "Wrogn",
       "gender": "women",
       "price": 200,
+      "discountedPrice": 150,
       "sizesAvailable": [
         "s",
         "xl"
@@ -56,6 +60,7 @@
       "brand": "Adidas",
       "gender": "women",
       "price": 500,
+      "discountedPrice": 400,
       "sizesAvailable": [
         "m",
         "l",
@@ -69,6 +74,7 @@
       "brand": "Allen Solley",
       "gender": "children",
       "price": 700,
+      "discountedPrice": 500,
       "sizesAvailable": [
         "s",
         "m",

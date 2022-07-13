@@ -1,0 +1,39 @@
+.cartpage-container
+{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 5.6rem;
+    background-color: var(--color-bg-grey);
+}
+
+.cart-grid
+{
+    display: grid;
+    width: 100%;
+    min-width: fit-content;
+    padding: 2rem;
+    gap: 2rem;
+    grid-template-columns: repeat( 9 , 1fr );
+    box-sizing: border-box;
+}
+
+.cart-items-grid
+{
+    grid-column: 2 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.empty-cart-msg
+{
+    font-size: 25px;
+    color: red;
+    padding-top: 25rem;
+}
+
+.cart-heading
+{
+    padding-top: 3rem;
+}

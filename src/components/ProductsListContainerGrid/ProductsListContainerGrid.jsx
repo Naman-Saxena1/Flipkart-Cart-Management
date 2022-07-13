@@ -15,7 +15,7 @@ function ProductsListContainerGrid()
             <div className="products-grid">
                 {
                     products.items.map(itemDetails=>
-                        <ProductCard itemDetails={itemDetails}/>    
+                        <ProductCard key={itemDetails.id} itemDetails={itemDetails}/>    
                     )
                 }
             </div>
