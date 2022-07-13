@@ -7,7 +7,6 @@ import {
 import {
     useCart, useSaveForLater
 } from "../../context/index"
-import { notify } from "../../App"
 import "./Cart.css"
 
 function Cart()
